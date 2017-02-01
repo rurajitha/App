@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/school"
+         android:background="#ECEFF1"
+        android:text="School"
+        android:textAllCaps="true"
+        android:padding="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/water"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#CFD8DC"
+        android:text="water"
+        android:textAllCaps="true"
+        android:padding="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/storm_water"
+        android:padding="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:background="#B0BEC5"
+        android:text="STORM WATER"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/public_health"
+         android:background="#90A4AE"
+        android:text="public health"
+        android:textAllCaps="true"
+        android:padding="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/msdp"
+         android:background="#78909C"
+        android:text="msdp"
+        android:textAllCaps="true"
+        android:padding="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/ac_planning"
+         android:background="#607D8B"
+        android:text="ac planning"
+        android:textAllCaps="true"
+        android:padding="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/mobile_towers"
+        android:padding="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:background="#546E7A"
+        android:text="mobile towers"
+        android:textAllCaps="true"
+
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/complaints"
+        android:padding="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:background="#455A64"
+        android:text="complaints"
+        android:textAllCaps="true"
+
+        />
+    </LinearLayout>
+
+</ScrollView>

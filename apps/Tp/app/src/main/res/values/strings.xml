@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tp</string>
+    <string name="no_messages">No messages found.</string>
+    <string name="error">Please check your internet connection</string>
+</resources>
